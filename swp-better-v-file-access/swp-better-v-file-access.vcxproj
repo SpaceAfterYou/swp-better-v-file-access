@@ -191,7 +191,7 @@
     <ClInclude Include="headers\plugin.hpp" />
     <ClInclude Include="headers\utils\convert_error_state.hpp" />
     <ClInclude Include="headers\utils\memory.hpp" />
-    <ClInclude Include="headers\utils\win32\get_proc_address.hpp" />
+    <ClInclude Include="headers\utils\win\get_proc_address.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="sources\attach.cpp" />

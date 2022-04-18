@@ -2,7 +2,7 @@
 #include "../headers/file_access.hpp"
 #include "../headers/utils/convert_error_state.hpp"
 #include "../headers/utils/memory.hpp"
-#include "../headers/utils/win32/get_proc_address.hpp"
+#include "../headers/utils/win/get_proc_address.hpp"
 
 // deps
 #include <spdlog/spdlog.h>
@@ -335,7 +335,7 @@ auto swp::file_access::flush(handle_ptr* _handle) -> void
 
 auto swp::file_access::setup(const HMODULE _handle) -> void
 {
-  handle_error = utils::win32::get_proc_address<handle_error_t>(_handle, "?HandleError@VFileAccess@@SA_NW4FileErrorState@1@@Z");
+  handle_error = utils::win::get_proc_address<handle_error_t>(_handle, "?HandleError@VFileAccess@@SA_NW4FileErrorState@1@@Z");
   
   file_entry::buffer = (char*)utils::memory::VBaseAlloc_rel(541953606);
 }

@@ -19,7 +19,7 @@
     <Filter Include="sources\utils">
       <UniqueIdentifier>{a402cd39-c887-4bb3-b29a-d83b54a0ac2b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="headers\utils\win32">
+    <Filter Include="headers\utils\win">
       <UniqueIdentifier>{069eefbd-7a2c-4e09-931b-fd0d5fca874c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -45,8 +45,8 @@
     <ClInclude Include="headers\utils\memory.hpp">
       <Filter>headers\utils</Filter>
     </ClInclude>
-    <ClInclude Include="headers\utils\win32\get_proc_address.hpp">
-      <Filter>headers\utils\win32</Filter>
+    <ClInclude Include="headers\utils\win\get_proc_address.hpp">
+      <Filter>headers\utils\win</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
