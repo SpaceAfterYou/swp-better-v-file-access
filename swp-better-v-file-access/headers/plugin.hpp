@@ -2,7 +2,7 @@
 
 #include <swpsdk/plugin/base.hpp>
 
-namespace swp_template
+namespace swp
 {
   class plugin final : public swpsdk::plugin::base<plugin>
   {

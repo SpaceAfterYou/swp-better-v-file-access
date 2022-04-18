@@ -1,5 +1,5 @@
 {
-  "name": "swp-template",
+  "name": "swp-better-v-file-access",
   "version": "1.0.0",
-  "dependencies": [ "spdlog", "neargye-semver" ]
+  "dependencies": [ "spdlog", "detours" ]
 }
